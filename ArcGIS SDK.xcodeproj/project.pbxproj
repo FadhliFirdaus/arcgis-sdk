@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7111AFB72BFF1C6B00990A33 /* SearchWithGeocodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111AFB62BFF1C6B00990A33 /* SearchWithGeocodeView.swift */; };
+		7111AFB92BFF343600990A33 /* GraphicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7111AFB82BFF343600990A33 /* GraphicManager.swift */; };
+		716E37352BFC495C00F3A9C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E37342BFC495C00F3A9C0 /* CardView.swift */; };
+		716E37382BFC4B8200F3A9C0 /* TrackingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E37372BFC4B8200F3A9C0 /* TrackingCards.swift */; };
+		716E373B2BFC4BD100F3A9C0 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E373A2BFC4BD100F3A9C0 /* CardModel.swift */; };
+		71782EB92BFC41D100E3A18A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71782EB82BFC41D100E3A18A /* LocationManager.swift */; };
+		71782EBE2BFC451700E3A18A /* DebugUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71782EBD2BFC451700E3A18A /* DebugUtils.swift */; };
+		71782EC02BFC47CE00E3A18A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71782EBF2BFC47CE00E3A18A /* Helper.swift */; };
 		7196EFFA2BFAF17A008ED2BA /* ArcGIS_SDKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196EFF92BFAF17A008ED2BA /* ArcGIS_SDKApp.swift */; };
 		7196EFFC2BFAF17A008ED2BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196EFFB2BFAF17A008ED2BA /* ContentView.swift */; };
 		7196EFFE2BFAF17C008ED2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7196EFFD2BFAF17C008ED2BA /* Assets.xcassets */; };
-		7196F0012BFAF17C008ED2BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7196F0002BFAF17C008ED2BA /* Preview Assets.xcassets */; };
+		7196F0092BFAF241008ED2BA /* ArcGIS in Frameworks */ = {isa = PBXBuildFile; productRef = 7196F0082BFAF241008ED2BA /* ArcGIS */; };
+		7196F00B2BFAF2B1008ED2BA /* ArcGISManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196F00A2BFAF2B1008ED2BA /* ArcGISManager.swift */; };
+		7196F00D2BFAF377008ED2BA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196F00C2BFAF377008ED2BA /* APIManager.swift */; };
+		7196F0122BFAFCBD008ED2BA /* ArcGISToolkit in Frameworks */ = {isa = PBXBuildFile; productRef = 7196F0112BFAFCBD008ED2BA /* ArcGISToolkit */; };
+		719ED6C82BFEFF9100A3CFB5 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719ED6C72BFEFF9100A3CFB5 /* MapScreen.swift */; };
+		71B341FE2BFEC55E00EA71DC /* MapScreen-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B341FD2BFEC55E00EA71DC /* MapScreen-ViewModel.swift */; };
+		71B342002BFED6F700EA71DC /* MapMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B341FF2BFED6F700EA71DC /* MapMode.swift */; };
+		71B342022BFEDCD500EA71DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B342012BFEDCD500EA71DC /* Extension.swift */; };
+		71B3420A2BFEFD0200EA71DC /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B342092BFEFD0200EA71DC /* TrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7111AFB62BFF1C6B00990A33 /* SearchWithGeocodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWithGeocodeView.swift; sourceTree = "<group>"; };
+		7111AFB82BFF343600990A33 /* GraphicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicManager.swift; sourceTree = "<group>"; };
+		716E37342BFC495C00F3A9C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		716E37372BFC4B8200F3A9C0 /* TrackingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingCards.swift; sourceTree = "<group>"; };
+		716E373A2BFC4BD100F3A9C0 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		71782EB82BFC41D100E3A18A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		71782EBA2BFC420500E3A18A /* ArcGIS-SDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ArcGIS-SDK-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71782EBD2BFC451700E3A18A /* DebugUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugUtils.swift; sourceTree = "<group>"; };
+		71782EBF2BFC47CE00E3A18A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		7196EFF62BFAF17A008ED2BA /* ArcGIS SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArcGIS SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7196EFF92BFAF17A008ED2BA /* ArcGIS_SDKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGIS_SDKApp.swift; sourceTree = "<group>"; };
 		7196EFFB2BFAF17A008ED2BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7196EFFD2BFAF17C008ED2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7196F0002BFAF17C008ED2BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7196F00A2BFAF2B1008ED2BA /* ArcGISManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISManager.swift; sourceTree = "<group>"; };
+		7196F00C2BFAF377008ED2BA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		719ED6C72BFEFF9100A3CFB5 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		71B341FD2BFEC55E00EA71DC /* MapScreen-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapScreen-ViewModel.swift"; sourceTree = "<group>"; };
+		71B341FF2BFED6F700EA71DC /* MapMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMode.swift; sourceTree = "<group>"; };
+		71B342012BFEDCD500EA71DC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		71B342092BFEFD0200EA71DC /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +57,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7196F0122BFAFCBD008ED2BA /* ArcGISToolkit in Frameworks */,
+				7196F0092BFAF241008ED2BA /* ArcGIS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		716E37312BFC491F00F3A9C0 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				71782EBD2BFC451700E3A18A /* DebugUtils.swift */,
+				71782EBF2BFC47CE00E3A18A /* Helper.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		716E37322BFC492800F3A9C0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7196F00A2BFAF2B1008ED2BA /* ArcGISManager.swift */,
+				71782EB82BFC41D100E3A18A /* LocationManager.swift */,
+				7196F00C2BFAF377008ED2BA /* APIManager.swift */,
+				7111AFB82BFF343600990A33 /* GraphicManager.swift */,
+			);
+			name = Manager;
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		716E37332BFC493F00F3A9C0 /* TrackingView */ = {
+			isa = PBXGroup;
+			children = (
+				71B341FD2BFEC55E00EA71DC /* MapScreen-ViewModel.swift */,
+				716E37372BFC4B8200F3A9C0 /* TrackingCards.swift */,
+				71B342092BFEFD0200EA71DC /* TrackingView.swift */,
+				719ED6C72BFEFF9100A3CFB5 /* MapScreen.swift */,
+			);
+			path = TrackingView;
+			sourceTree = "<group>";
+		};
+		716E37362BFC4B6500F3A9C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				716E37342BFC495C00F3A9C0 /* CardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		716E37392BFC4BCA00F3A9C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				716E373A2BFC4BD100F3A9C0 /* CardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7196EFED2BFAF17A008ED2BA = {
 			isa = PBXGroup;
 			children = (
@@ -51,20 +132,20 @@
 		7196EFF82BFAF17A008ED2BA /* ArcGIS SDK */ = {
 			isa = PBXGroup;
 			children = (
+				71782EBA2BFC420500E3A18A /* ArcGIS-SDK-Info.plist */,
 				7196EFF92BFAF17A008ED2BA /* ArcGIS_SDKApp.swift */,
 				7196EFFB2BFAF17A008ED2BA /* ContentView.swift */,
+				716E37332BFC493F00F3A9C0 /* TrackingView */,
+				716E37322BFC492800F3A9C0 /* Manager */,
+				716E37392BFC4BCA00F3A9C0 /* Models */,
+				716E37362BFC4B6500F3A9C0 /* Components */,
+				716E37312BFC491F00F3A9C0 /* Misc */,
 				7196EFFD2BFAF17C008ED2BA /* Assets.xcassets */,
-				7196EFFF2BFAF17C008ED2BA /* Preview Content */,
+				71B341FF2BFED6F700EA71DC /* MapMode.swift */,
+				71B342012BFEDCD500EA71DC /* Extension.swift */,
+				7111AFB62BFF1C6B00990A33 /* SearchWithGeocodeView.swift */,
 			);
 			path = "ArcGIS SDK";
-			sourceTree = "<group>";
-		};
-		7196EFFF2BFAF17C008ED2BA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				7196F0002BFAF17C008ED2BA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,10 @@
 			dependencies = (
 			);
 			name = "ArcGIS SDK";
+			packageProductDependencies = (
+				7196F0082BFAF241008ED2BA /* ArcGIS */,
+				7196F0112BFAFCBD008ED2BA /* ArcGISToolkit */,
+			);
 			productName = "ArcGIS SDK";
 			productReference = 7196EFF62BFAF17A008ED2BA /* ArcGIS SDK.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,10 @@
 				Base,
 			);
 			mainGroup = 7196EFED2BFAF17A008ED2BA;
+			packageReferences = (
+				7196F0072BFAF240008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift" */,
+				7196F0102BFAFCBD008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */,
+			);
 			productRefGroup = 7196EFF72BFAF17A008ED2BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7196F0012BFAF17C008ED2BA /* Preview Assets.xcassets in Resources */,
 				7196EFFE2BFAF17C008ED2BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +225,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7111AFB92BFF343600990A33 /* GraphicManager.swift in Sources */,
+				7196F00D2BFAF377008ED2BA /* APIManager.swift in Sources */,
 				7196EFFC2BFAF17A008ED2BA /* ContentView.swift in Sources */,
+				71B3420A2BFEFD0200EA71DC /* TrackingView.swift in Sources */,
+				71B341FE2BFEC55E00EA71DC /* MapScreen-ViewModel.swift in Sources */,
+				7111AFB72BFF1C6B00990A33 /* SearchWithGeocodeView.swift in Sources */,
+				716E37382BFC4B8200F3A9C0 /* TrackingCards.swift in Sources */,
+				719ED6C82BFEFF9100A3CFB5 /* MapScreen.swift in Sources */,
+				71782EB92BFC41D100E3A18A /* LocationManager.swift in Sources */,
+				71782EBE2BFC451700E3A18A /* DebugUtils.swift in Sources */,
+				716E373B2BFC4BD100F3A9C0 /* CardModel.swift in Sources */,
+				716E37352BFC495C00F3A9C0 /* CardView.swift in Sources */,
+				71782EC02BFC47CE00E3A18A /* Helper.swift in Sources */,
+				71B342022BFEDCD500EA71DC /* Extension.swift in Sources */,
 				7196EFFA2BFAF17A008ED2BA /* ArcGIS_SDKApp.swift in Sources */,
+				7196F00B2BFAF2B1008ED2BA /* ArcGISManager.swift in Sources */,
+				71B342002BFED6F700EA71DC /* MapMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +374,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ArcGIS SDK/Preview Content\"";
 				DEVELOPMENT_TEAM = U442ACHGQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArcGIS-SDK-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +403,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ArcGIS SDK/Preview Content\"";
 				DEVELOPMENT_TEAM = U442ACHGQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ArcGIS-SDK-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +447,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7196F0072BFAF240008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Esri/arcgis-maps-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 200.4.0;
+			};
+		};
+		7196F0102BFAFCBD008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Esri/arcgis-maps-sdk-swift-toolkit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 200.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7196F0082BFAF241008ED2BA /* ArcGIS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7196F0072BFAF240008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift" */;
+			productName = ArcGIS;
+		};
+		7196F0112BFAFCBD008ED2BA /* ArcGISToolkit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7196F0102BFAFCBD008ED2BA /* XCRemoteSwiftPackageReference "arcgis-maps-sdk-swift-toolkit" */;
+			productName = ArcGISToolkit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7196EFEE2BFAF17A008ED2BA /* Project object */;
 }
